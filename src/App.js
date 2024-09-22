@@ -2,11 +2,16 @@ import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link as RouterLink } from 'react-router-dom';
 import { useMediaQuery, createTheme, ThemeProvider, AppBar, Toolbar, Typography, Button, Box, Container, IconButton, Drawer, List, ListItem } from '@mui/material';
 import { Menu as MenuIcon } from '@mui/icons-material';
+import Research from './Research';
+import Partners from './Partners';
+import Team from './Team';
+import logo from './logo.png';
+import LandingPage from './LandingPage';
 import './App.css';
 
 const theme = createTheme({
   palette: {
-    primary: { main: '#000' },
+    primary: { main: '#fff' },
     secondary: { main: '#007bff' },
     background: { default: '#fff' },
   },
@@ -45,11 +50,13 @@ function App() {
       <Router>
         <Box display="flex" flexDirection="column" minHeight="100vh">
           <AppBar position="static">
-            <Toolbar sx={{ justifyContent: 'space-between' }}>
-              <Button color="inherit" component={RouterLink} to="/">               <Typography variant="h6" component="div">
-              CAPSL
-              </Typography>
-
+            <Toolbar sx={{ height: '120px', justifyContent: 'space-between' }}>
+              <Button color="inherit" component={RouterLink} to="/">             
+              <img 
+        src={logo} 
+        alt="Logo" 
+        style={{ height: '100px', width: 'auto' }} // Adjust the height as needed
+      />
               </Button>
 
               {isMobile ? (
@@ -73,16 +80,35 @@ function App() {
           </AppBar>
 
           <Routes>
-            <Route path="/research" element={<div>Research Content</div>} />
-            <Route path="/team" element={<div>Team Content</div>} />
-            <Route path="/join" element={<div>Join Us Content</div>} />
-            <Route path="/collaborators" element={<div>Join Us Content</div>} />
+          <Route path="/" element={<LandingPage/>} />
+            <Route path="/research" element={<Research/>} />
+            <Route path="/team" element={<Team/>} />
+            <Route path="/join"               element={
+                <Box
+                  sx={{
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    height: '80vh', // Full viewport height
+                    textAlign: 'center', // Center text
+                  }}
+                >
+                  <Typography variant="h6">
+                    Email{' '}
+                    <a href="mailto:team@cortexflex.org" style={{ color: 'inherit', textDecoration: 'underline' }}>
+                      team@cortexflex.org
+                    </a>{' '}
+                    with your CV.
+                  </Typography>
+                </Box>
+              } />
+            <Route path="/collaborators" element={<Partners/>} />
 
           </Routes>
 
-          <Box component="footer" sx={{ bgcolor: 'primary.main', color: 'white', py: 3, mt: 'auto' }}>
+          <Box component="footer" sx={{ bgcolor: 'primary.main', py: 3, mt: 'auto' }}>
             <Container maxWidth="lg" sx={{ display: 'flex', justifyContent: 'space-between' }}>
-              <Typography variant="body1">© {new Date().getFullYear()} CAPSL</Typography>
+              <Typography variant="body1">© {new Date().getFullYear()} CAPSuLe</Typography>
               <Typography variant="body2">Cortex Adolescent Performance Science Lab</Typography>
             </Container>
           </Box>
