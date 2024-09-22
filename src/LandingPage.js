@@ -99,7 +99,7 @@ function LandingPage() {
     variant="contained"
     color="primary"
     component={RouterLink}
-    to="/our-research"
+    to="/research"
     sx={{
       padding: '12px 24px',
       fontSize: '1.2rem',
