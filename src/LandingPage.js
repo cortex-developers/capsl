@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Typography, Button, Container, Link } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import backgroundImage from './different_sports.jpg'
+import backgroundImage from './development.jpg'
 const theme = createTheme({
   palette: {
     primary: { main: '#000' },
