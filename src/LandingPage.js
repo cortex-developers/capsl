@@ -96,6 +96,7 @@ function LandingPage() {
                 padding: '12px 24px',
                 fontSize: '1.2rem',
                 marginRight: '16px',
+                marginBottom: '16px',
                 backgroundColor: '#FFD700', // Gold color for contrast
                 color: '#000',
                 '&:hover': { backgroundColor: '#E0B800' }, // Darker shade on hover
@@ -112,6 +113,7 @@ function LandingPage() {
                 padding: '12px 24px',
                 fontSize: '1.2rem',
                 marginLeft: '16px',
+                marginRight: '16px',
                 borderColor: '#FFD700',
                 color: '#FFD700',
                 '&:hover': { backgroundColor: 'rgba(255, 215, 0, 0.2)', borderColor: '#FFD700' },
