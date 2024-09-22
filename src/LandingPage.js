@@ -86,42 +86,50 @@ function LandingPage() {
           </Typography>
 
           {/* Call to Action Buttons */}
-          <Box sx={{ marginTop: '2rem' }}>
-            <Button
-              variant="contained"
-              color="primary"
-              component={RouterLink}
-              to="/our-research"
-              sx={{
-                padding: '12px 24px',
-                fontSize: '1.2rem',
-                marginRight: '16px',
-                marginBottom: '16px',
-                backgroundColor: '#FFD700', // Gold color for contrast
-                color: '#000',
-                '&:hover': { backgroundColor: '#E0B800' }, // Darker shade on hover
-              }}
-            >
-              Explore Our Research
-            </Button>
-            <Button
-              variant="outlined"
-              color="primary"
-              component={RouterLink}
-              to="/join"
-              sx={{
-                padding: '12px 24px',
-                fontSize: '1.2rem',
-                marginLeft: '16px',
-                marginRight: '16px',
-                borderColor: '#FFD700',
-                color: '#FFD700',
-                '&:hover': { backgroundColor: 'rgba(255, 215, 0, 0.2)', borderColor: '#FFD700' },
-              }}
-            >
-              Get Involved
-            </Button>
-          </Box>
+          <Box
+  sx={{
+    marginTop: '2rem',
+    display: 'flex',
+    flexDirection: { xs: 'column', sm: 'row' }, // Column for mobile, row for larger screens
+    alignItems: 'center',
+    justifyContent: 'center',
+  }}
+>
+  <Button
+    variant="contained"
+    color="primary"
+    component={RouterLink}
+    to="/our-research"
+    sx={{
+      padding: '12px 24px',
+      fontSize: '1.2rem',
+      marginBottom: { xs: '1rem', sm: 0 }, // Vertical space for mobile
+      marginRight: { sm: '16px' }, // Margin-right only for larger screens
+      backgroundColor: '#FFD700', // Gold color for contrast
+      color: '#000',
+      '&:hover': { backgroundColor: '#E0B800' }, // Darker shade on hover
+    }}
+  >
+    Explore Our Research
+  </Button>
+  <Button
+    variant="outlined"
+    color="primary"
+    component={RouterLink}
+    to="/join"
+    sx={{
+      padding: '12px 24px',
+      fontSize: '1.2rem',
+      marginLeft: { sm: '16px' }, // Margin-left only for larger screens
+      borderColor: '#FFD700',
+      color: '#FFD700',
+      '&:hover': { backgroundColor: 'rgba(255, 215, 0, 0.2)', borderColor: '#FFD700' },
+    }}
+  >
+    Get Involved
+  </Button>
+</Box>
+
         </Container>
       </Box>
     </ThemeProvider>
