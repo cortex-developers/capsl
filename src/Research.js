@@ -1,23 +1,15 @@
 import React from 'react';
 import { Container, Box, Typography, Grid } from '@mui/material';
-
+import positive from './positivestimuli.jpg'
 const Research = () => {
   const sections = [
     {
       header: "Positive Stimuli for Adolescents",
-      image: "https://via.placeholder.com/500",
-      description: "We are interested in researching positive stimuli for adolescents that help determine sucessful and positive growth trajectories. To that end, sports have been proven to be one of the most impactful if not the most impactful positive stimuli that adolescents can experience. We aim to characterize and better understand the impact of these stimuli."
+      image: positive,
+      description: `Adolescence is a critical period for both neurological and physical development. Pressure to perform is high in the adolescent years. Short term outcomes in this window are often determinants of longer term opportunities. Adolescents face a multitude of stressors associated with development which can have long term effects in altering the adolescent's environment and developmental progression.
+We are interested in understanding every aspect of this trajectory. On the one hand, we seek a mechanistic understanding of experiences and stimuli that limit or withhold proper development. On the other, we aim to identify and understand stimuli that augment health and performance outcomes for adolescents in their current life period as well as in adulthood.
+With an interdisciplinary team of researchers and physicians, The CAPSuLe is working to build a holistic understanding development that informs the work of teachers, coaches, and mentors as we work together to build a healthier future.`
     },
-    {
-      header: "Sports Injury and Recovery",
-      image: "https://via.placeholder.com/500",
-      description: "Research on sports injury and recovery has advanced greatly in recent years due to modern medicine, but a disconnect between the athletic and medical communities has led to ineffective and in many cases unnecesary procedures perfomred on athletes. We aim to research up-to-date therapies and the effectiveness of various sport injury recovery protocols."
-    },
-    {
-      header: "Athletic Performance Optimization",
-      image: "https://via.placeholder.com/500",
-      description: "How can athletes improve their performance? What sort of protocols prove to be the most beneficial in making athletes stronger, faster, smarter, and more resilient. We are in interested in what makes a better athlete."
-    }
   ];
 
   return (

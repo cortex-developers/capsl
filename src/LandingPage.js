@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Typography, Button, Container } from '@mui/material';
+import { Box, Typography, Button, Container, Link } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import backgroundImage from './different_sports.jpg'
@@ -54,7 +54,7 @@ function LandingPage() {
               textShadow: '2px 2px 8px rgba(0, 0, 0, 0.8)', // Text shadow to enhance readability
             }}
           >
-            Welcome to CAPSuLe
+            Welcome to The CAPSuLe
           </Typography>
 
           {/* Subheader */}
@@ -79,11 +79,10 @@ function LandingPage() {
               textShadow: '1px 1px 4px rgba(0, 0, 0, 0.6)',
             }}
           >
-            CAPSuLe is an Independent Research Organization (IRO) dedicated to investigating the adolescent experience and performance. While we are affiliated with{' '}
-            <Typography component="span" sx={{ fontWeight: 'bold', color: '#FFD700' }}> Cortex Flex</Typography>, we operate as a 501(c)(3) non-profit organization. 
+            The CAPSuLe is an Independent Research Organization (IRO) and 501(c)(3) nonprofit dedicated to investigating the adolescent experience as it relates to health and performance outcomes in the short and long term. We are affiliated with <Link href="https://cortexflex.org" target="_blank" rel="noopener" sx={{ color: '#FFD700', textDecoration: 'none', '&:hover': { textDecoration: 'underline' } }}>
+  Cortex Flex
+</Link>, an organization dedicated to scientific dissemination through education and mentorship programs for adolescent athletes. Our goal is to understand how adolescent development can be optimized amid the stressors of this life period and to disseminate this information within actionable health and performance solutions.
 
-            In addition to our research, we aim to translate the science we publish into accessible versions for athletes and the general public through{' '}
-            <Typography component="span" sx={{ fontWeight: 'bold', color: '#FFD700' }}> theCAPSuLe</Typography>, our educational initiative.
           </Typography>
 
           {/* Call to Action Buttons */}

@@ -29,6 +29,9 @@ function App() {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <List>
+      <ListItem button component={RouterLink} to="/">
+          <Button color="inherit">Home</Button>
+        </ListItem>
         <ListItem button component={RouterLink} to="/research">
           <Button color="inherit">Our Research</Button>
         </ListItem>
@@ -50,7 +53,7 @@ function App() {
       <Router>
         <Box display="flex" flexDirection="column" minHeight="100vh">
           <AppBar position="static">
-            <Toolbar sx={{ height: '120px', justifyContent: 'space-between' }}>
+            <Toolbar sx={{ height: '120px'}}>
               <Button color="inherit" component={RouterLink} to="/">             
               <img 
         src={logo} 
@@ -70,6 +73,7 @@ function App() {
                 </>
               ) : (
                 <Box>
+                  <Button color="inherit" component={RouterLink} to="/">Home</Button>
                   <Button color="inherit" component={RouterLink} to="/research">Our Research</Button>
                   <Button color="inherit" component={RouterLink} to="/team">Our Team</Button>
                   <Button color="inherit" component={RouterLink} to="/collaborators">Our Collaborators</Button>
@@ -108,7 +112,7 @@ function App() {
 
           <Box component="footer" sx={{ bgcolor: 'primary.main', py: 3, mt: 'auto' }}>
             <Container maxWidth="lg" sx={{ display: 'flex', justifyContent: 'space-between' }}>
-              <Typography variant="body1">© {new Date().getFullYear()} CAPSuLe</Typography>
+              <Typography variant="body1">© {new Date().getFullYear()} The CAPSuLe</Typography>
               <Typography variant="body2">Cortex Adolescent Performance Science Lab</Typography>
             </Container>
           </Box>
