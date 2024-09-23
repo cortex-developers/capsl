@@ -31,6 +31,44 @@ const researchers = [
     background: 'B.A Statistics & Economics from Cornell University, Postbac @ MGH/Harvard Medical School'
   },
   {
+    name: 'Dr. Yael Ihejirika, MD',
+    headshot: yael,
+    //bio: 'Dr. Yael Ihejirika is our Co-PI working on research with ligamentous injuries and rehabilitation science.',
+    background: 'MD from SUNY Downstate, General Surgery Resident @ SUNY Downstate.'
+  },
+  {
+    name: 'Dr. Maya Haykal, MD',
+    headshot: maya,
+    //bio: 'Dr. Maya Haykal is our Co-PI working on research with ligamentous injuries and rehabilitation science.',
+    background: 'MD from SUNY Upstate, PM&R Resident @ Johns Hopkins.'
+  },
+  {
+    name: 'Dr. Anusri Pakhare, MD',
+    headshot: anusri,
+    //bio: 'Dr. Memo Garibay is our Co-PI specializing in neuroscience and advanced therapies for sports injury recovery.',
+    background: 'MD from Shandong First Medical University'
+  },
+  {
+    name: 'Dr. Memo Garibay, MD',
+    headshot: memo,
+    //bio: 'Dr. Memo Garibay is our Co-PI specializing in neuroscience and advanced therapies for sports injury recovery.',
+    background: 'MD from Universidad Anahuac, Research Fellow @ INNN.'
+  },
+  {
+    name: 'Tyler Thiele, DPT',
+    headshot: tyler,
+    //bio: 'Dr. Maya Haykal is our Co-PI working on research with ligamentous injuries and rehabilitation science.',
+    background: 'DPT from Ithaca College, Physical Therapist @ FOX Rehabilitation.'
+  },
+  {
+    name: 'Ana Radanovic, MSc',
+    headshot: ana,
+    //bio: 'Dr. Memo Garibay is our Co-PI specializing in neuroscience and advanced therapies for sports injury recovery.',
+    background: 'MSc from University of Amsterdam, Neuroscience PhD Student @ Weill Cornell Medicine.'
+  },
+
+  
+  {
     name: 'Danielle Vitale',
     headshot: danielle,
     //bio: 'Puneet is a software engineer who is dedicated to use neuroimaging and neuroscience to improve health outcomes for athletes.',
@@ -72,42 +110,8 @@ const researchers = [
     //bio: 'Puneet is a software engineer who is dedicated to use neuroimaging and neuroscience to improve health outcomes for athletes.',
     background: 'B.S Biomedical Sciences from University of South Florida, 2nd Year Medical Student @ LECOM'
   },
-  {
-    name: 'Dr. Memo Garibay, MD',
-    headshot: memo,
-    //bio: 'Dr. Memo Garibay is our Co-PI specializing in neuroscience and advanced therapies for sports injury recovery.',
-    background: 'MD from Universidad Anahuac, Research Fellow @ INNN.'
-  },
-  {
-    name: 'Ana Radanovic, MSc',
-    headshot: ana,
-    //bio: 'Dr. Memo Garibay is our Co-PI specializing in neuroscience and advanced therapies for sports injury recovery.',
-    background: 'MSc from University of Amsterdam, Neuroscience PhD Student @ Weill Cornell Medicine.'
-  },
-  {
-    name: 'Dr. Yael Ihejirika, MD',
-    headshot: yael,
-    //bio: 'Dr. Yael Ihejirika is our Co-PI working on research with ligamentous injuries and rehabilitation science.',
-    background: 'MD from SUNY Downstate, General Surgery Resident @ SUNY Downstate.'
-  },
-  {
-    name: 'Dr. Maya Haykal, MD',
-    headshot: maya,
-    //bio: 'Dr. Maya Haykal is our Co-PI working on research with ligamentous injuries and rehabilitation science.',
-    background: 'MD from SUNY Upstate, PM&R Resident @ Johns Hopkins.'
-  },
-  {
-    name: 'Dr. Anusri Pakhare, MD',
-    headshot: anusri,
-    //bio: 'Dr. Memo Garibay is our Co-PI specializing in neuroscience and advanced therapies for sports injury recovery.',
-    background: 'MD from Shandong First Medical University'
-  },
-  {
-    name: 'Tyler Thiele, DPT',
-    headshot: tyler,
-    //bio: 'Dr. Maya Haykal is our Co-PI working on research with ligamentous injuries and rehabilitation science.',
-    background: 'DPT from Ithaca College, Physical Therapist @ FOX Rehabilitation.'
-  },
+
+
   // Add more researchers as needed
 ];
 

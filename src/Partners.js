@@ -2,6 +2,7 @@ import React from 'react';
 import { Grid, Box, Typography } from '@mui/material';
 import coco from './coco.png'
 import flores from './flores.svg'
+import cortex from './cortex.png'
 // Sample data for partner logos and descriptions
 const partners = [
   {
@@ -13,7 +14,12 @@ const partners = [
     name: 'Computational Connectomics Lab @ Cornell',
     logo: coco,
     description: ''
-  }
+  },
+  {
+    name: 'Cortex Flex',
+    logo: cortex,
+    description: ''
+  },
   // Add more partners as needed
 ];
 

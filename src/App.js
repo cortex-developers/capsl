@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link as RouterLink } from 'react-router-dom';
-import { useMediaQuery, createTheme, ThemeProvider, AppBar, Toolbar, Typography, Button, Box, Container, IconButton, Drawer, List, ListItem } from '@mui/material';
+import { useMediaQuery, createTheme, ThemeProvider, AppBar, Toolbar, Typography, Button, Box, Container, IconButton, Drawer, List, ListItem, Grid } from '@mui/material';
 import { Menu as MenuIcon } from '@mui/icons-material';
 import Research from './Research';
 import Partners from './Partners';
@@ -8,6 +8,9 @@ import Team from './Team';
 import logo from './logo.png';
 import LandingPage from './LandingPage';
 import './App.css';
+import galleryImage1 from './boys.jpg'; // Replace with your image paths
+import galleryImage2 from './mayastretch.png';
+import galleryImage3 from './mayayoga.png';
 
 const theme = createTheme({
   palette: {
@@ -88,23 +91,81 @@ function App() {
             <Route path="/research" element={<Research/>} />
             <Route path="/team" element={<Team/>} />
             <Route path="/join"               element={
-                <Box
-                  sx={{
-                    display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center',
-                    height: '80vh', // Full viewport height
-                    textAlign: 'center', // Center text
-                  }}
-                >
-                  <Typography variant="h6">
-                    Email{' '}
-                    <a href="mailto:team@cortexflex.org" style={{ color: 'inherit', textDecoration: 'underline' }}>
-                      team@cortexflex.org
-                    </a>{' '}
-                    with your CV.
-                  </Typography>
-                </Box>
+              <Box>
+      {/* Photo Gallery */}
+      <Box sx={{ padding: '2rem' }}>
+      <Box
+        sx={{
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          height: '20vh',
+          textAlign: 'center',
+          padding: '2rem',
+          borderRadius: '12px',
+        }}
+      >
+        <Box>
+          <Typography variant="h4" sx={{ fontWeight: 'bold', color: '#333', mb: 2 }}>
+            Join Our Team
+          </Typography>
+          <Typography variant="h6" sx={{ color: '#555' }}>
+            Email{' '}
+            <a
+              href="mailto:team@cortexflex.org"
+              style={{ color: '#007bff', textDecoration: 'none', fontWeight: 'bold' }}
+              onMouseEnter={(e) => (e.target.style.textDecoration = 'underline')}
+              onMouseLeave={(e) => (e.target.style.textDecoration = 'none')}
+            >
+              team@cortexflex.org
+            </a>{' '}
+            with your CV.
+          </Typography>
+        </Box>
+      </Box>
+        <Grid container spacing={2} justifyContent="center">
+          <Grid item xs={12} sm={4}>
+            <Box
+              component="img"
+              src={galleryImage1}
+              alt="Gallery Image 1"
+              sx={{
+                width: '100%',
+                borderRadius: '8px',
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
+              }}
+            />
+          </Grid>
+          <Grid item xs={12} sm={4}>
+            <Box
+              component="img"
+              src={galleryImage2}
+              alt="Gallery Image 2"
+              sx={{
+                width: '100%',
+                borderRadius: '8px',
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
+              }}
+            />
+          </Grid>
+          <Grid item xs={12} sm={4}>
+            <Box
+              component="img"
+              src={galleryImage3}
+              alt="Gallery Image 3"
+              sx={{
+                width: '100%',
+                borderRadius: '8px',
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
+              }}
+            />
+          </Grid>
+        </Grid>
+      </Box>
+
+      {/* Join Section */}
+
+    </Box>
               } />
             <Route path="/collaborators" element={<Partners/>} />
 

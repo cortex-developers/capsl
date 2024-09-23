@@ -62,7 +62,7 @@ With an interdisciplinary team of researchers and physicians, The CAPSuLe is wor
 
         {/* Current Projects Subtitle */}
         <Typography variant="h6" align="center" color="textSecondary" gutterBottom>
-          We are working on meta-analyses, systematic reviews, survey research, and literature reviews on various areas like traumatic brain injury, adolescent hardship, and time loss due to injury.
+          We are working on meta-analyses, systematic reviews, survey research, and literature reviews.
         </Typography>
 
         {/* Horizontal Gallery */}
