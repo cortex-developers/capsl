@@ -105,7 +105,7 @@ const researchers = [
     background: 'B.S Neuroscience Student @ Rutgers'
   },
   {
-    name: 'Kevin Wiz',
+    name: 'Kevin Wisniewski',
     headshot: kevin,
     //bio: 'Puneet is a software engineer who is dedicated to use neuroimaging and neuroscience to improve health outcomes for athletes.',
     background: 'B.S Biomedical Sciences from University of South Florida, 2nd Year Medical Student @ LECOM'

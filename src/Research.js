@@ -1,10 +1,11 @@
 import React from 'react';
 import { Container, Box, Typography, Grid } from '@mui/material';
 import positive from './positivestimuli.jpg';
-import project1 from './tbi.png'; // Example project image 1
 import project2 from './rehab.jpg'; // Example project image 2
 import project3 from './hardship.jpg'; // Example project image 3
 import project4 from './mind.jpg'; // Example project image 3
+import project6 from './perf.jpg'; // Example project image 3
+import project5 from './supp.jpg'; // Example project image 3
 
 const Research = () => {
   const sections = [
@@ -19,10 +20,12 @@ With an interdisciplinary team of researchers and physicians, The CAPSuLe is wor
 
   // Current projects array with images
   const currentProjects = [
-    { title: 'Project 1', image: project1 },
     { title: 'Project 2', image: project2 },
     { title: 'Project 3', image: project3 },
     { title: 'Project 4', image: project4 },
+    { title: 'Project 5', image: project5},
+    { title: 'Project 6', image: project6},
+
   ];
 
   return (
@@ -61,9 +64,6 @@ With an interdisciplinary team of researchers and physicians, The CAPSuLe is wor
         </Typography>
 
         {/* Current Projects Subtitle */}
-        <Typography variant="h6" align="center" color="textSecondary" gutterBottom>
-          We are working on meta-analyses, systematic reviews, survey research, and literature reviews.
-        </Typography>
 
         {/* Horizontal Gallery */}
         <Grid container spacing={2} justifyContent="center">

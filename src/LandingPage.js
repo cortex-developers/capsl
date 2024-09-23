@@ -3,6 +3,7 @@ import { Box, Typography, Button, Container, Link } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import backgroundImage from './development.jpg'
+import mobileBackgroundImage from './develop.jpg'
 const theme = createTheme({
   palette: {
     primary: { main: '#000' },
@@ -25,7 +26,10 @@ function LandingPage() {
           alignItems: 'center',
           textAlign: 'center',
           padding: '2rem',
-          backgroundImage: `url(${backgroundImage})`,
+          backgroundImage: {
+            xs: `url(${mobileBackgroundImage})`, // Mobile background image
+            sm: `url(${backgroundImage})` // Default background image for larger screens
+          },
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           position: 'relative',

@@ -105,7 +105,7 @@ function App() {
           borderRadius: '12px',
         }}
       >
-        <Box>
+        <Box sx={{ marginBottom: '50px'}}>
           <Typography variant="h4" sx={{ fontWeight: 'bold', color: '#333', mb: 2 }}>
             Join Our Team
           </Typography>
