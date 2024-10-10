@@ -28,7 +28,7 @@ const researchers = [
     name: 'Puneet Velidi',
     headshot: puneet,
     //bio: 'Puneet is a software engineer who is dedicated to use neuroimaging and neuroscience to improve health outcomes for athletes.',
-    background: 'B.A Statistics & Economics from Cornell University, Postbac @ MGH/Harvard Medical School'
+    background: 'B.A Statistics & Economics from Cornell University, MSc Student @ University of Victoria'
   },
   {
     name: 'Dr. Yael Ihejirika, MD',
