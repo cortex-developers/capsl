@@ -31,8 +31,8 @@ With an interdisciplinary team of researchers and physicians, The CAPSuLe is wor
     { title: 'Time Loss after Injury Review', image: project2, description: 'The aim of this review is to examine how time loss after injury affects performance and recovery outcomes.' },
     { title: 'Effect of Mindfulness on Performance Meta-analysis', image: project4, description: 'The aim of this meta-analysis is to examine the effect of mindfulness as an intervention in performance outcomes for athletes.' },
     { title: 'Sleep Deprivation Gamma Power Meta-analysis', image: eeg, description: 'The aim is to provide a comprehensive analysis of how sleep deprivation influences gamma oscillations across various populations and its impact on cognitive functions, emotional regulation, and overall neural processing.' },
-    { title: 'The U.S Educational Crisis & How Athletics Can Be a Solution', image: school, description: 'The aim of this commentary is to provide an argument for considering athletic programs as potential solutions to improving educational achievement and mental health among students in the U.S.' },
-    { title: 'The Disconnect Between Science & Youth Athletics', image: sci, description: `The aim of this commentary is to (1) provide insights into how science often doesn't reach youth athletics and how the science used in youth athletics is often out of date and (2) solutions to this problem.` },
+    { title: 'Athletics as a Solution to US Educational Shortcomings', image: school, description: 'The aim of this commentary is to provide an argument for considering athletic programs as potential solutions to improving educational achievement and mental health among students in the U.S.' },
+    { title: 'Tackling the Disconnect Between Health Science and Youth Sports', image: sci, description: `The aim of this commentary is to (1) provide insights into how science often doesn't reach youth athletics and how the science used in youth athletics is often out of date and (2) solutions to this problem.` },
 
   ];
 
