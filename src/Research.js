@@ -10,10 +10,12 @@ import ivy from './ivy.jpg';
 import eeg from './EEG-recording.png';
 import tbi from './tbi.jpg'
 import group from './202234-individualism-vs-teamwork.jpg'
+import sci from './sci.jpg'
+import school from './school.jpg'
 const Research = () => {
   const sections = [
     {
-      header: "Positive Stimuli for Adolescents",
+      header: "Adolescence: Performance today is Health Tomorrow",
       image: positive,
       description: `Adolescence is a critical period for both neurological and physical development. Pressure to perform is high in the adolescent years. Short term outcomes in this window are often determinants of longer term opportunities. Adolescents face a multitude of stressors associated with development which can have long term effects in altering the adolescent's environment and developmental progression.
 We are interested in understanding every aspect of this trajectory. On the one hand, we seek a mechanistic understanding of experiences and stimuli that limit or withhold proper development. On the other, we aim to identify and understand stimuli that augment health and performance outcomes for adolescents in their current life period as well as in adulthood.
@@ -23,12 +25,15 @@ With an interdisciplinary team of researchers and physicians, The CAPSuLe is wor
 
   const currentProjects = [
     { title: 'TBI Voxel-based Morphometry Review', image: tbi, description: 'The aim is to examine the changes in grey matter volume after traumatic brain injury using Voxel-based Morphometry that are found in the literature.' },
-    { title: 'Adolescent Hardship Survey', image: project3, description: 'The aim of this survey is to identify the positive stimuli that adolescents are lacking in their lives and observe if there is any correlation with their general life satisfaction.' },
-    { title: 'Ivy League Athlete Household Survey', image: ivy, description: `The aim of this survey is to identify and understand the factors differentiating household environments of society's viewpoint of elite achievement - Ivy League students - versus their peers at more academically diverse institutions. This project aims to explore how family environment, cultural influences, lifestyle habits, and psychosocial development shape the experiences and outcomes of elite achievers versus the "average" using validated psychological and sociological scales.` },
-    { title: 'Individual vs Group Intervention Meta', image: group, description: 'The aim is to synthesize existing research comparing individual and group interventions in therapy, coaching, training, and teaching to understand their relative effectiveness across different domains. This meta-analysis will evaluate how individual and group formats impact mental health outcomes, skill acquisition, behavioral changes, and participant satisfaction.' },
+    { title: 'Positive Stimuli for Adolescents Survey', image: project3, description: 'The aim of this survey is to identify the positive stimuli that adolescents are lacking in their lives and observe if there is any correlation with their general life satisfaction.' },
+    { title: 'Elite Achievement Household Survey', image: ivy, description: `The aim of this survey is to identify and understand the factors differentiating household environments of society's viewpoint of elite achievement - Ivy League students - versus their peers at more academically diverse institutions. This project aims to explore how family environment, cultural influences, lifestyle habits, and psychosocial development shape the experiences and outcomes of elite achievers versus the "average" using validated psychological and sociological scales.` },
+    { title: 'Individual vs Group Intervention Meta-analysis', image: group, description: 'The aim is to synthesize existing research comparing individual and group interventions in therapy, coaching, training, and teaching to understand their relative effectiveness across different domains. This meta-analysis will evaluate how individual and group formats impact mental health outcomes, skill acquisition, behavioral changes, and participant satisfaction.' },
     { title: 'Time Loss after Injury Review', image: project2, description: 'The aim of this review is to examine how time loss after injury affects performance and recovery outcomes.' },
-    { title: 'Effect of Mindfulness on Performance Meta', image: project4, description: 'The aim of this meta-analysis is to examine the effect of mindfulness as an intervention in performance outcomes for athletes.' },
-    { title: 'Sleep Deprivation Gamma Power Meta', image: eeg, description: 'The aim is to provide a comprehensive analysis of how sleep deprivation influences gamma oscillations across various populations and its impact on cognitive functions, emotional regulation, and overall neural processing.' },
+    { title: 'Effect of Mindfulness on Performance Meta-analysis', image: project4, description: 'The aim of this meta-analysis is to examine the effect of mindfulness as an intervention in performance outcomes for athletes.' },
+    { title: 'Sleep Deprivation Gamma Power Meta-analysis', image: eeg, description: 'The aim is to provide a comprehensive analysis of how sleep deprivation influences gamma oscillations across various populations and its impact on cognitive functions, emotional regulation, and overall neural processing.' },
+    { title: 'The U.S Educational Crisis & How Athletics Can Be a Solution', image: school, description: 'The aim of this commentary is to provide an argument for considering athletic programs as potential solutions to improving educational achievement and mental health among students in the U.S.' },
+    { title: 'The Disconnect Between Science & Youth Athletics', image: sci, description: `The aim of this commentary is to (1) provide insights into how science often doesn't reach youth athletics and how the science used in youth athletics is often out of date and (2) solutions to this problem.` },
+
   ];
 
   const [expanded, setExpanded] = useState(null);
