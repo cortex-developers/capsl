@@ -4,6 +4,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import backgroundImage from './development.jpg'
 import mobileBackgroundImage from './develop.jpg'
+import AutoOpenModal from './AutoOpenModal';
 const theme = createTheme({
   palette: {
     primary: { main: '#000' },
@@ -18,6 +19,7 @@ const theme = createTheme({
 function LandingPage() {
   return (
     <ThemeProvider theme={theme}>
+      <AutoOpenModal></AutoOpenModal>
       <Box
         sx={{
           minHeight: '80vh', // Adjust this based on space between navbar and footer
