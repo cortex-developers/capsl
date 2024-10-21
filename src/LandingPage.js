@@ -4,7 +4,6 @@ import { Link as RouterLink } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import backgroundImage from './development.jpg';
 import mobileBackgroundImage from './develop.jpg';
-import AutoOpenModal from './AutoOpenModal';
 import capsl from './capsl.mp4'; // Replace with your actual video source
 
 const theme = createTheme({
