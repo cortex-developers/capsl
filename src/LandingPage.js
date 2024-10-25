@@ -1,10 +1,11 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
 import { Box, Typography, Button, Container, Link, useMediaQuery } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import backgroundImage from './development.jpg';
 import mobileBackgroundImage from './develop.jpg';
-import capsl from './capsl.mp4'; // Replace with your actual video source
+//import capsl from './capsl.mp4'; // Replace with your actual video source
 
 const theme = createTheme({
   palette: {
@@ -88,21 +89,8 @@ function LandingPage() {
 
           {/* Video Section (Mobile & Desktop Positioning) */}
           {isMobile && (
-            <video
-              src={capsl}
-              alt="Event"
-              style={{
-                width: '100%',
-                height: 'auto',
-                marginBottom: '20px',
-                maxHeight: '70vh', // Ensure the video doesn't overflow on mobile
-                objectFit: 'contain', // Maintain aspect ratio
-              }}
-              autoPlay
-              loop // Optional: makes the video loop
-              muted
-              playsInline // Useful for mobile devices
-            />
+            <iframe src="https://drive.google.com/file/d/1xr68xRW56hD5EP4RgeypOK3gWwT_RVkk/preview" width="300" height="533.3333" allow="autoplay"></iframe>
+
           )}
 
           {/* Mission Statement */}
@@ -136,20 +124,8 @@ function LandingPage() {
                 maxWidth: '500px', // Limit the max width of the video
               }}
             >
-              <video
-                src={capsl}
-                alt="Event"
-                style={{
-                  width: '100%',
-                  height: 'auto',
-                  maxHeight: '70vh', // Ensure the video doesn't overflow
-                  objectFit: 'contain', // Maintain aspect ratio
-                }}
-                autoPlay
-                loop // Optional: makes the video loop
-                muted
-                playsInline // Useful for mobile devices
-              />
+<iframe src="https://drive.google.com/file/d/1xr68xRW56hD5EP4RgeypOK3gWwT_RVkk/preview" width="400" height="711.11" allow="autoplay"></iframe>
+
             </Box>
           )}
 
