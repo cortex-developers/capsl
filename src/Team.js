@@ -15,6 +15,7 @@ import puneet from './puneet.png'
 import nate from './nate.png'
 import kevin from './kevin.png'
 import maya from './maya.png'
+import isha from './isha.jpeg'
 // Sample data for team members
 const researchers = [
 
@@ -109,6 +110,12 @@ const researchers = [
     headshot: kevin,
     //bio: 'Puneet is a software engineer who is dedicated to use neuroimaging and neuroscience to improve health outcomes for athletes.',
     background: 'B.S Biomedical Sciences from University of South Florida, 2nd Year Medical Student @ LECOM'
+  },
+  {
+    name: 'Isha Sudhir',
+    headshot: isha,
+    //bio: 'Puneet is a software engineer who is dedicated to use neuroimaging and neuroscience to improve health outcomes for athletes.',
+    background: 'Dual-enrollment Student @ Bellvue College'
   },
 
 
