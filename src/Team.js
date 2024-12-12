@@ -2,7 +2,6 @@ import React from 'react';
 import { Grid, Box, Typography, Container } from '@mui/material';
 import yael from './yael.jpg'
 import vivek from './vivek.jpg'
-import sanjay from './sanjay.jpeg'
 import mya from './mya.jpg'
 import tyler from './tyler.jpeg'
 import ana from './ana.jpg'
@@ -11,7 +10,6 @@ import sophia from './sophia.jpg'
 import danielle from './danielle.png'
 import anusri from './anusri.jpg'
 import ramsey from './ramsey.png'
-import puneet from './puneet.png'
 import nate from './nate.png'
 import kevin from './kevin.png'
 import maya from './maya.png'
@@ -24,12 +22,6 @@ const researchers = [
     headshot: nate,
     //bio: 'Nate is dedicated to improving the experiences and lives of student-athletes',
     background: 'B.S Neurochemistry from Cornell University, PhD Student @ McGill'
-  },
-  {
-    name: 'Puneet Velidi',
-    headshot: puneet,
-    //bio: 'Puneet is a software engineer who is dedicated to use neuroimaging and neuroscience to improve health outcomes for athletes.',
-    background: 'B.A Statistics & Economics from Cornell University, MSc Student @ University of Victoria'
   },
   {
     name: 'Dr. Yael Ihejirika, MD',
@@ -68,7 +60,6 @@ const researchers = [
     background: 'MSc from University of Amsterdam, Neuroscience PhD Student @ Weill Cornell Medicine.'
   },
 
-  
   {
     name: 'Danielle Vitale',
     headshot: danielle,
@@ -98,12 +89,6 @@ const researchers = [
     headshot: sophia,
     //bio: 'Puneet is a software engineer who is dedicated to use neuroimaging and neuroscience to improve health outcomes for athletes.',
     background: 'B.S Neuroscience Student @ Columbia'
-  },
-  {
-    name: 'Sanjay Kumar',
-    headshot: sanjay,
-    //bio: 'Puneet is a software engineer who is dedicated to use neuroimaging and neuroscience to improve health outcomes for athletes.',
-    background: 'B.S Neuroscience Student @ Rutgers'
   },
   {
     name: 'Kevin Wisniewski',
