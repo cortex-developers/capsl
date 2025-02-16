@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Box, Typography, Container } from '@mui/material';
 import yael from './yael.jpg'
-import vivek from './vivek.jpg'
+// import vivek from './vivek.jpg' // removed person
 import mya from './mya.jpg'
 import tyler from './tyler.jpeg'
 import ana from './ana.jpg'
@@ -14,6 +14,8 @@ import nate from './nate.png'
 import kevin from './kevin.png'
 import maya from './maya.png'
 import isha from './isha.jpeg'
+import ojas from './ojas_chaudhury.png'
+import matt from './matt_shumway.png'
 // Sample data for team members
 const researchers = [
 
@@ -73,12 +75,6 @@ const researchers = [
     background: 'B.A Biology from Brown University, MPH Student @ Robert Morris University'
   },
   {
-    name: 'Vivek Khatri',
-    headshot: vivek,
-    //bio: 'Puneet is a software engineer who is dedicated to use neuroimaging and neuroscience to improve health outcomes for athletes.',
-    background: 'B.S Biology from University of Virginia, 2nd Year Dental Student @ Columbia'
-  },
-  {
     name: 'Ramsey Kubofcik',
     headshot: ramsey,
     //bio: 'Puneet is a software engineer who is dedicated to use neuroimaging and neuroscience to improve health outcomes for athletes.',
@@ -101,6 +97,18 @@ const researchers = [
     headshot: isha,
     //bio: 'Puneet is a software engineer who is dedicated to use neuroimaging and neuroscience to improve health outcomes for athletes.',
     background: 'Dual-enrollment Student @ Bellvue College'
+  },
+  {
+    name: 'Ojas Chadhury',
+    headshot: ojas,
+    //bio: 'Puneet is a software engineer who is dedicated to use neuroimaging and neuroscience to improve health outcomes for athletes.',
+    background: 'B.S. Pharmacology @ McGill University'
+  },
+  {
+    name: 'Matt Shumway',
+    headshot: matt,
+    //bio: 'Puneet is a software engineer who is dedicated to use neuroimaging and neuroscience to improve health outcomes for athletes.',
+    background: 'B.S. Psychology from University of Virginia, 2nd Year Medical Student @ LECOM'
   },
 
 
