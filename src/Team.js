@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid, Box, Typography, Container } from '@mui/material';
 import yael from './yael.jpg'
-// import vivek from './vivek.jpg' // removed person
+// import vivek from './vivek.jpg' // removed scientist
 import mya from './mya.jpg'
 import tyler from './tyler.jpeg'
 import ana from './ana.jpg'
